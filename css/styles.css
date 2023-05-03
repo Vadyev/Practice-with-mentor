@@ -1,0 +1,33 @@
+:root {
+  --accent-color: #ff3839;
+  --black-202020: #202020;
+  --gray-background: #f8f8f8;
+  --light-red: #333335;
+  --light-black: #696969;
+  --background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: sans-serif;
+  color: var(--light-black);
+  background-color: var(--background-color);
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
