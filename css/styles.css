@@ -1,10 +1,10 @@
 :root {
+  --background: #333335;
   --accent-color: #ff3839;
-  --black-202020: #202020;
-  --gray-background: #f8f8f8;
-  --light-red: #333335;
-  --light-black: #696969;
-  --background-color: #ffffff;
+  --dark-color: #202020;
+  --light-color: #f8f8f8;
+  --main-white: #ffffff;
+  --text-color: #696969;
 }
 h1,
 h2,
@@ -24,10 +24,52 @@ p {
 }
 body {
   font-family: sans-serif;
-  color: var(--light-black);
-  background-color: var(--background-color);
+  color: var(--text-color);
+  background-color: var(--main-white);
 }
 button {
   font-family: inherit;
   cursor: pointer;
+}
+/* Header */
+
+.header {
+  background-color: var(--background);
+}
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-conteiner {
+  display: flex;
+}
+.navigation {
+  display: flex;
+}
+.logo-link {
+  color: var(--main-white);
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.nav-list {
+  display: flex;
+}
+.list-link {
+  color: var(--main-white);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+.header-button {
+  color: var(--main-white);
+  background-color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  border: none;
 }
