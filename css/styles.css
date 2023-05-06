@@ -36,19 +36,23 @@ button {
 .header {
   background-color: var(--background);
 }
-.conteiner {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-.header-conteiner {
+.header-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .navigation {
   display: flex;
 }
 .logo-link {
+  display: flex;
+  align-items: center;
   color: var(--main-white);
   font-family: "Inter";
   font-style: normal;
@@ -57,14 +61,18 @@ button {
 }
 .nav-list {
   display: flex;
+  gap: 40px;
 }
 .list-link {
   color: var(--main-white);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
-.header-button {
+.header-btn {
   color: var(--main-white);
   background-color: var(--accent-color);
   font-size: 16px;
@@ -72,4 +80,69 @@ button {
   letter-spacing: 0.03em;
   border-radius: 5px;
   border: none;
+  padding: 10px 18px;
+}
+
+/* Hero-section */
+.hero {
+  background-color: var(--dark-color);
+  padding-top: 184px;
+  padding-bottom: 190px;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  margin-bottom: 14px;
+}
+.subtitle-accent {
+  color: var(--accent-color);
+}
+.hero-title {
+  font-size: 70px;
+  line-height: 1.28;
+  letter-spacing: 0.03em;
+  margin: 0 auto 22px auto;
+  color: var(--main-white);
+  width: 790px;
+  text-align: center;
+}
+.hero-deskr {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0 auto 30px auto;
+  color: var(--main-white);
+}
+.hero-list {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+.accent-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+}
+.hire-btn {
+  padding: 12px 61px;
+}
+.hero-second-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
+  padding: 12px 34px;
+  border: none;
+  border-radius: 5px;
 }

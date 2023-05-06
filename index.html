@@ -22,14 +22,14 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
   <body>
     <header class="header">
       <!-- Header Section -->
-      <div class="header-conteiner conteiner">
+      <div class="header-container container">
+        <a href="./index.html" class="logo-link link"
+          ><svg width="50" height="53">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+          Canvas Lancer</a
+        >
         <nav class="navigation">
-          <a href="./index.html" class="logo-link link"
-            ><svg width="50" height="53">
-              <use href="./images/icons.svg#icon-logo"></use>
-            </svg>
-            Canvas Lancer</a
-          >
           <ul class="nav-list list">
             <li><a href="" class="list-link link">About Us</a></li>
             <li><a href="" class="list-link link">Home</a></li>
@@ -38,24 +38,31 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             <li><a href="" class="list-link link">Testimonials</a></li>
             <li><a href="" class="list-link link">Faqs</a></li>
           </ul>
-          <button type="button" class="header-button button">Contact Us</button>
         </nav>
+        <button type="button" class="header-btn button">Contact Us</button>
       </div>
     </header>
     <main>
       <!-- Hero section -->
-      <section>
-        <p>Welcome To Canavas Lancer</p>
-        <h1>Designing the Future with Canvas Lancer</h1>
-        <p>
+      <section class="hero">
+        <div class="hero-container container"></div>
+        <p class="hero-subtitle">
+          Welcome To <span class="subtitle-accent">Canavas Lancer</span>
+        </p>
+        <h1 class="hero-title">Designing the Future with Canvas Lancer</h1>
+        <p class="hero-deskr">
           Lorem ipsum dolor sit amet consectetur. Aliquam quisque cursus proin
           adipiscing quis diam. Eu fringilla elit commodo nec aliquet. Augue
           pharetra nibh co
         </p>
-        <ul class="button-list">
-          <li class="button-item"><button type="button">Hire Us</button></li>
-          <li class="button-item">
-            <button type="button">View Portfolio</button>
+        <ul class="hero-list list">
+          <li>
+            <button class="accent-btn hire-btn" type="button">Hire Us</button>
+          </li>
+          <li>
+            <button class="hero-second-btn" type="button">
+              View Portfolio
+            </button>
           </li>
         </ul>
       </section>
@@ -229,9 +236,61 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             ><input type="text" /><input type="text" /><input type="text"
           /></label>
         </form>
+        <img
+          src="./images/contact-us.jpg"
+          alt="send messege"
+          width="603"
+          height="829"
+        />
         <button type="submit"></button>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div>
+        <a href="./index.html" class="logo-link link"
+          ><svg width="50" height="53">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+          Canvas Lancer</a
+        >
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Scelerisque vitae et vitae
+          suspendisse vulputate vestibulum tortor nisl cursus. Egestas nulla in
+        </p>
+        <ul>
+          <li>facebook</li>
+          <li>istagram</li>
+          <li>twiter</li>
+          <li>linkdn</li>
+        </ul>
+      </div>
+      <div>
+        <p>Services</p>
+        <ul>
+          <li>UI/UX</li>
+          <li>Website Dev</li>
+          <li>Mobile Dev</li>
+          <li>SEO</li>
+        </ul>
+      </div>
+
+      <div>
+        <p>Contact Information</p>
+        <ul>
+          <li>Compliance</li>
+          <li>Case Studies</li>
+          <li>Webinars</li>
+          <li>Developers</li>
+        </ul>
+      </div>
+      <div>
+        <p>Resources</p>
+        <ul>
+          <li>canvaslancer@gmail.com</li>
+          <li>+00012345678</li>
+          <li>Lorem Ipsum Dummy text</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
